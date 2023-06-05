@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Dialog"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="11dp">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:hint="Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/usercontact"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:hint="Contact"
+        android:minHeight="48dp" />
+
+   <!-- <EditText
+        android:id="@+id/useremail"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:hint="email"
+        android:minHeight="48dp" />-->
+
+    <Button
+        android:id="@+id/btnaction"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="right"
+        android:text="submit" />
+
+
+</LinearLayout>
